@@ -1,0 +1,10 @@
+# Directorios de dependencias
+/node_modules
+
+# Archivos de caché/dependencias
+package-lock.json
+
+# Archivos de configuración de entorno (importante por seguridad)
+.env
+.env.demo
+

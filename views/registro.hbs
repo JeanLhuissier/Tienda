@@ -1,0 +1,27 @@
+<div class="row justify-content-center">
+    <div class="col-md-6 col-lg-5">
+        <div class="card shadow">
+            <div class="card-header bg-dark text-white text-center">
+                <h4><i class="bi bi-person-plus"></i> Registro de Usuario</h4>
+            </div>
+            <div class="card-body">
+                <div id="registro-alerts"></div>
+
+                <form id="form-registro">
+                    <div class="mb-3">
+                        <label for="reg-username" class="form-label">Nombre de Usuario</label>
+                        <input type="text" class="form-control" id="reg-username" name="username" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="reg-password" class="form-label">Contraseña</label>
+                        <input type="password" class="form-control" id="reg-password" name="password" 
+                               placeholder="Min 10 chars, 1 Mayus, 1 Minus, 1 Num" required>
+                    </div>
+                    <div class="d-grid gap-2">
+                        <button type="submit" class="btn btn-dark">Registrarse</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
